@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+#right_fixed,#right_fixed img {
+	position: fixed;
+	z-index: 999;
+	bottom: 80px;
+	right: 0;
+	background: transparent;
+}
+
+#right_fixed img {
+	right: 54px;
+	display: none;
+	max-width: 130px;
+}
+
+#right_fixed #img_appdownload {
+	bottom: 158px;
+}
+
+#right_fixed #img_weixin {
+	bottom: 108px;
+}
+
+#right_fixed {
+	width: 36px;
+	padding: 8px;
+	text-align: center;
+	background-color: white;
+	-moz-box-shadow: 1px 1px 10px #CCCCCC;
+	-webkit-box-shadow: 1px 1px 10px #CCCCCC;
+	box-shadow: 1px 1px 10px #CCCCCC;
+	border-radius: 3px;
+}
+
+#right_fixed a {
+	width: 36px;
+	height: 36px;
+	float: right;
+	padding: 0;
+	margin: 6px 0;
+	font-size: 12px;
+	cursor: pointer;
+}
+
+.right_fixed_feedback {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-4px;
+}
+
+.right_fixed_feedback:HOVER {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-44px;
+}
+
+.right_fixed_cproblems {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-84px;
+}
+
+.right_fixed_cproblems:HOVER {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-124px;
+}
+/* 下载APP */
+.right_fixed_appdownload {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-165px;
+}
+
+.right_fixed_appdownload:HOVER {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-205px;
+}
+
+.right_fixed_appdownload:HOVER #img_appdownload {
+	display: block;
+}
+/* 微信 */
+.right_fixed_weixin {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-245px;
+}
+
+.right_fixed_weixin:HOVER {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-285px;
+}
+
+.right_fixed_weixin:HOVER #img_weixin {
+	display: block;
+}
+
+.right_fixed_backup {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-325px;
+	display: none;
+}
+
+.right_fixed_backup:HOVER {
+	background: url("../images/web/icon_fixed_right.png") no-repeat -2px
+		-365px;
+}
